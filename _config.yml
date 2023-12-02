@@ -1,13 +1,14 @@
-title:            Slate+Simple Jekyll Theme
+title:            WELCOME2MACHINE
 description:      Your site description...
-copyright:        Your Name
+copyright:        WELCOME2MACHINE
+destination:      docs
 url: # add your custom site url (format: https://example.com)
 
 
 future:      false  # publish future dated posts --  true, false (default)
 highlighter: rouge
 markdown:    kramdown
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-gist

@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: posts
-title: Syntax Highlighting Post
+title: Brief Introduction
 tags: [sample post, code, highlighting]
 date-string: NOVEMBER 18, 2016
 ---

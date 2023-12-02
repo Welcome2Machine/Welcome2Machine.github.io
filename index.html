@@ -19,7 +19,7 @@ layout: post-index
         </h3>
     </header>
 
-    <!-- POST CONTENT -->
+    
 <!--     <div class="entry-content">
         {{ post.content }}
     </div> -->
@@ -31,7 +31,7 @@ layout: post-index
     <div class="inline-tags">
         <span>
         {% for tag in post.tags %}
-            <a href="/tags/#{{tag}}">#{{ tag }}&nbsp;&nbsp;&nbsp;</a>
+            <a href="{{ site.url }}{{ post.url }}">#{{ tag }}&nbsp;&nbsp;&nbsp;</a>
         {% endfor %}
         </span>
     </div>
@@ -39,13 +39,13 @@ layout: post-index
     <br>
     
     <!-- POST DATE -->
-    <div class="post-date">
+    <!-- <div class="post-date">
         <span class="entry-date date published updated">
             <time datetime="{{ post.date | date_to_xmlschema }}">
                 <a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a>
             </time>
         </span>
-    </div>
+    </div> -->
     
 </article>
 {% endfor %}
